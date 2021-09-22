@@ -1,8 +1,6 @@
 package ru.geekbrains.homework;
 
 public class HomeWorkApp {
-    public HomeWorkApp() {
-    }
 
     public static void main(String[] args) {
         printThreeWords();
@@ -37,9 +35,7 @@ public class HomeWorkApp {
 
         if (value > 0 && value <= 100) {
             System.out.println("Желтый");
-        }
-
-        if (value > 100) {
+        } else if (value > 100) {
             System.out.println("Зеленый");
         }
 
